@@ -1,5 +1,9 @@
+body {
+    background-color: blanchedalmond;
+}
+
 .game {
-    width: 255px;
+    width: 462px;
     margin: auto;
     text-align: center;
     color: white;
@@ -9,8 +13,9 @@
 
 .title {
     background: #f25;
-    padding: 5px 0;
-    margin: 5px 0;
+    padding: 15px 0;
+    margin: 40px 0 5px 0;
+    font-size: 30px;
 }
 
 span {
@@ -18,12 +23,12 @@ span {
 }
 
 .square {
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
     background: #f25;
     float: left;
     margin: 2px;
-    font-size: 50px;
+    font-size: 100px;
 }
 
 .square:hover {
